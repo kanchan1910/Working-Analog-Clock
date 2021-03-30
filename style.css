@@ -1,0 +1,47 @@
+#clock
+{
+	background-color: red;
+	width: 800px;
+	height: 800px;
+	background: url(clock.png) no-repeat center center;
+	background-size: cover;
+	/* for center*/
+	margin: auto;
+	margin-top: 80px;
+}
+#hour, #min, #sec
+{
+   position: absolute; 
+    background: black;
+    border-radius: 10px; 
+    /* to rotate it form its bottom , because ,its bottom will be the center of the clock*/
+  transform-origin: bottom;
+}
+#hour
+{
+    width: 1.5%;
+    height: 25%;
+    top: 25%;
+    left: 49.199%;
+  
+}
+#min
+{
+    width: 1.3%;
+    height: 30.78%;
+    top: 19%;
+    left: 49.33%;
+
+}
+#sec
+{
+    width: 0.6%;
+    height: 31.5%;
+    top: 18%;
+    left: 49.99%;
+
+}
+body
+{
+	background-color:  black;
+}
